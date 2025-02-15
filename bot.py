@@ -6,7 +6,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 from telegram.error import Forbidden
 
 # Bot tokeni
-TOKEN = "7552596511:AAH2W6zcr18wWhAv0dKalrib_PhWs-4YFzc"
+TOKEN = "7552596511:AAFU_AjhWH-bA3Xontk-T8qQ8gmmXlSxLM0"
 
 # Adminlar ro'yxati
 boss = 1179267491
