@@ -13,7 +13,7 @@ boss = 1179267491
 Admins = {5935789154, 1179267491, 6987013817, boss}
 
 # Majburiy kanallar
-required_channels = ['@RALPHLAURENUzb', '@LuxStoreTow']
+required_channels = ['@RALPHLAURENUzb', '@LuxStoreTow'] # pastda yana bor 127-qator
 kanal = "@kinotime1515"
 
 # JSON fayl
@@ -125,7 +125,7 @@ async def handle_code(update: Update, context: ContextTypes.DEFAULT_TYPE):
     code = update.message.text.strip()
     
     if not await check_subscription(user_id, context):
-        keyboard = [[InlineKeyboardButton("A‘zo bo‘lish", url="https://t.me/Panda571kulgiTime")],
+        keyboard = [[InlineKeyboardButton("A‘zo bo‘lish", url="https://t.me/RALPHLAURENUzb")],
                     [InlineKeyboardButton("A‘zo bo‘lish", url="https://t.me/LuxStoreTow")]]
         reply_markup = InlineKeyboardMarkup(keyboard)
         return await update.message.reply_text("Videoni olish uchun quyidagi kanallarga a‘zo bo‘ling!", reply_markup=reply_markup)
