@@ -13,7 +13,7 @@ boss = 1179267491
 Admins = {5935789154, 1179267491, 6987013817, boss}
 
 # Majburiy kanallar
-required_channels = ['@RALPHLAURENUzb', "@LuxStoreTow"]
+required_channels = ['@RALPHLAURENUzb', '@LuxStoreTow']
 kanal = "@kinotime1515"
 
 # JSON fayl
