@@ -12,7 +12,7 @@ TOKEN = "7552596511:AAH2W6zcr18wWhAv0dKalrib_PhWs-4YFzc"
 boss = 1179267491
 Admins = {5935789154, 1179267491, 6987013817, boss}
 
-# Kanal ma'lumotlari
+# Majburiy kanallar
 required_channels = ["@RALPHLAURENUzb", "@LuxStoreTow"]
 kanal = "@kinotime1515"
 
